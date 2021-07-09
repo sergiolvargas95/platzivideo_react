@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 30px 30px;
-    min-height: 100vh; /* El ancho será igual al tamaño de todo el height menos 200px (100px del header + 100px del footer) */
+    height: 75vh; /* El ancho será igual al tamaño de todo el height menos 200px (100px del header + 100px del footer) */
 }
 
 .login__container {
@@ -104,7 +104,7 @@
     color: white;
 }
 
-.button {
+.button-login {
     background-color: rgba(255, 255, 255, 0.3);
     border: none;
     border-radius: 25px;
