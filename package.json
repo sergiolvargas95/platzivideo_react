@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development --env development"
+    "start": "webpack serve --open --mode development --env development"
   },
   "keywords": [],
   "author": "Sergio Vargas <sergiolvargas95@gmail.com>",
@@ -20,7 +20,8 @@
     "eslint-plugin-react": "^7.23.2",
     "json-server": "^0.16.3",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
@@ -32,7 +33,7 @@
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.6.0",
-    "node-sass": "^6.0.0",
+    "node-sass": "^6.0.1",
     "sass-loader": "^11.1.1",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0",
